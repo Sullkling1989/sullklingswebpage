@@ -94,11 +94,33 @@
   <a href="othercontent.html" class="nav-btn">Other Content</a>
 </div>
 
- 
+ .nav-buttons {
+  display: flex;
+  gap: 15px;              /* spacing between each box */
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ddd; /* button background */
+  border: 2px solid #aaa;
+  border-radius: 8px;     /* rounded corners */
+  text-decoration: none;  /* remove underline */
+  color: #000;
+  font-weight: bold;
+  transition: 0.2s;       /* smooth hover effect */
+}
+
+.nav-btn:hover {
+  background-color: #bbb; /* darker on hover */
+  transform: translateY(-3px); /* slight lift */
+}
+
 
 </body>
 
 </html>
+
 
 
 
