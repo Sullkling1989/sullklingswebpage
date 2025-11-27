@@ -1,0 +1,24 @@
+.nav-button {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.nav-button:hover {
+  background-color: #357ABD;
+}
+
+
+
+
+
+
+
+
+
