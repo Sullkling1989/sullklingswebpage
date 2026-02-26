@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'PapyrusCustom';
+  src: url('fonts/papyrus.ttf') format('truetype');
+}
+
+
+body {
+      background: #9b95a8;
+      text-align: center;
+    }
+    h1, h2, h3 {
+      margin: 10px;
+    }
+    img {
+      margin: 10px;
+      border-radius: 8px;
+    }
