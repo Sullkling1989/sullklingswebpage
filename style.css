@@ -1,6 +1,13 @@
+/* styles.css */
 @font-face {
   font-family: 'PapyrusCustom';
   src: url('fonts/papyrus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'PapyrusCustom', Papyrus, sans-serif;
 }
 
 
